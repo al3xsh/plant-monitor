@@ -5,7 +5,7 @@ basic.forever(function () {
     Moisture = pins.analogReadPin(AnalogPin.P0)
     serial.writeNumber(Moisture)
     serial.writeLine("")
-    if (Moisture > 400) {
+    if (Moisture > 425) {
         basic.showLeds(`
             . # . # .
             . . . . .
@@ -13,7 +13,6 @@ basic.forever(function () {
             # . . . #
             # . . . #
             `)
-        music.playTone(131, music.beat(BeatFraction.Whole))
     } else {
         basic.showLeds(`
             . # . # .
