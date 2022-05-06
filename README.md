@@ -5,6 +5,8 @@
 
 This program interfaces with capacitive soil moisture sensors to create a pot plant monitoring application to let you know when your plant needs watering! This was designed for a Computer Science day as part of the Science Week programme at Walton Holymoorside Primary School.
 
+Note the serial print line blocks are simply there to help with debugging (e.g. examing the moisture value from the sensors). This doesn't work when uploading code via Bluetooth (for example, when using an iPad).
+
 ## Edit this project
 
 To edit this repository in MakeCode.
@@ -23,4 +25,3 @@ This image may take a few minutes to refresh.
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
