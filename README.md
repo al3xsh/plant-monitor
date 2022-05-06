@@ -1,16 +1,11 @@
 
 > Open this page at [https://al3xsh.github.io/plant-monitor/](https://al3xsh.github.io/plant-monitor/)
 
-## Use as Extension
+## Simple Microbit program using MakeCode
 
-This repository can be added as an **extension** in MakeCode.
+This program interfaces with capacitive soil moisture sensors to create a pot plant monitoring application to let you know when your plant needs watering! This was designed for a Computer Science day as part of the Science Week programme at Walton Holymoorside Primary School.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/al3xsh/plant-monitor** and import
-
-## Edit this project ![Build status badge](https://github.com/al3xsh/plant-monitor/workflows/MakeCode/badge.svg)
+## Edit this project
 
 To edit this repository in MakeCode.
 
